@@ -33,10 +33,10 @@ switch(_switch) do
                 {
                    if(configName(_x) == _city select 0) then 
 				    {
-						if((configName(_x)) == "ACityC_Kameni") then {
+						if((configName(_x)) == "ACityC_Vinograd") then {
 						    _pos = getArray(_x >> "position");
-						    _pos set [0, (_pos select 0) - 450];
-							_pos set [1, (_pos select 1) - 475];
+						    _pos set [0, (_pos select 0) - 1];
+							_pos set [1, (_pos select 1) - 1];
 						    _pos = [_pos,5,100,1,0,0,0] call BIS_fnc_findSafePos;
 						    
 						    player setPos _pos;
@@ -65,10 +65,10 @@ switch(_switch) do
                 {
                    if(configName(_x) == _city select 0) then 
 				    {
-						if((configName(_x)) == "ACityC_Kameni") then {
+						if((configName(_x)) == "ACityC_Vinograd") then {
 						    _pos = getArray(_x >> "position");
-						    _pos set [0, (_pos select 0) - 450];
-							_pos set [1, (_pos select 1) - 475];
+						    _pos set [0, (_pos select 0) - 1];
+							_pos set [1, (_pos select 1) - 1];
 						    _pos = [_pos,5,100,1,0,0,0] call BIS_fnc_findSafePos;
 						    
 						    player setPos _pos;
@@ -97,10 +97,10 @@ switch(_switch) do
                 {
                    if(configName(_x) == _city select 0) then 
 				    {
-						if((configName(_x)) == "ACityC_Kameni") then {
+						if((configName(_x)) == "ACityC_Vinograd") then {
 						    _pos = getArray(_x >> "position");
-						    _pos set [0, (_pos select 0) - 450];
-							_pos set [1, (_pos select 1) - 475];
+						    _pos set [0, (_pos select 0) - 1];
+							_pos set [1, (_pos select 1) - 1];
 						    _pos = [_pos,5,100,1,0,0,0] call BIS_fnc_findSafePos;
 						    
 						    player setPos _pos;
@@ -129,10 +129,10 @@ switch(_switch) do
                 {
                    if(configName(_x) == _city select 0) then 
 				    {
-						if((configName(_x)) == "ACityC_Kameni") then {
+						if((configName(_x)) == "ACityC_Vinograd") then {
 						    _pos = getArray(_x >> "position");
-						    _pos set [0, (_pos select 0) - 450];
-							_pos set [1, (_pos select 1) - 475];
+						    _pos set [0, (_pos select 0) - 1];
+							_pos set [1, (_pos select 1) - 1];
 						    _pos = [_pos,5,100,1,0,0,0] call BIS_fnc_findSafePos;
 						    
 						    player setPos _pos;
@@ -161,9 +161,9 @@ switch(_switch) do
                 {
                    if(configName(_x) == _city select 0) then 
 				    {
-						if((configName(_x)) == "ACityC_Kameni") then {
+						if((configName(_x)) == "ACityC_Vinograd") then {
 						    _pos = getArray(_x >> "position");
-						    _pos set [0, (_pos select 0) - 450];
+						    _pos set [0, (_pos select 0) - 1];
 							_pos set [1, (_pos select 1) - 475];
 						    _pos = [_pos,5,100,1,0,0,0] call BIS_fnc_findSafePos;
 						    

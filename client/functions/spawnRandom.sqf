@@ -8,12 +8,20 @@ waituntil {!isnil "bis_fnc_init"};
 
 private ["_rad","_townName"];
 
+_randomLoc = cityLocations select (random (count cityLocations - 1));
+if((configName(_randomLoc)) == "ACityC_Vinograd") then {
+    _pos = getArray(_randomLoc >> "position");
+    _pos set [0, (_pos select 0) - 1];
+	_pos set [1, (_pos select 1) - 1];
+    _pos = [_pos,5,100,1,0,0,0] call BIS_fnc_findSafePos;
+    
+    player setPos _pos;
+} else {
     _pos = getArray(_randomLoc >> "position");
     _pos = [_pos,5,100,1,0,0,0] call BIS_fnc_findSafePos;
 
     player setPos _pos;
 };
-
 
 respawnDialogActive = false;
 closeDialog 0;
